@@ -8,4 +8,5 @@ echo ADD ./ ./ >> Dockerfile
 echo EXPOSE 5244 >> Dockerfile
 echo CMD [ \"./alist\", \"server\"] >> Dockerfile
 
+./alist admin
 ./alist server
